@@ -13,15 +13,16 @@ body {
     border: 0;
     color: white;
     font-size: 20px;
-    font-weight: 700;
-    padding: 15px 35px;
+    font-weight: 800px;
+    padding: 10px 30px;
 }
 
 /* nav related styles */
-body nav {
+ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 90px;
 
 }
 
@@ -31,7 +32,7 @@ body nav {
     font-weight: 800px;
 }
 
-nav>ul {
+nav> ul {
     display: flex;
     align-items: center;
 }
@@ -45,4 +46,17 @@ nav ul {
 nav a {
     text-decoration: none;
     coior: #474747;
+}
+
+/* header realated styles */
+.header{
+    background-color: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+.banner .profile-pic{
+    width: 1000px;
+    align-items: center;
 }
