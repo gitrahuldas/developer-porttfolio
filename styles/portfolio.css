@@ -52,7 +52,7 @@ nav> ul {
 
 nav li {
     list-style: none;
-    gap: 50px;
+    margin-right: 50px;
 
 }
 
@@ -61,7 +61,7 @@ nav a {
     coior: #474747;
 }
 
-/* header realated styles */
+/* header related styles */
 .header{
     background-color: #fff8f3;
     background-image: url('../images/header_bg.png');
@@ -96,7 +96,11 @@ nav a {
     margin-bottom: 20px;
 }
 
-/* main section styles
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* main section styles*/
 .about {
@@ -105,6 +109,11 @@ nav a {
     background: #fff8f3;
     margin: 130px; 0;
 }
+
+.about-info-container{
+    display: flex;
+}
+
 
 
 
